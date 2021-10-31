@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #101010;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-square {
+  font-size: 45px;
+  cursor: pointer;
+}
+
+.navbar__logo img {
+  max-width: 30%;
+  height: auto;
+  margin: 10px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navbar__button {
+  margin: 10px 10px;
+}
+
+/* ********************************************************* */
+
+.banner__texts {
+  text-align: center;
+}
+
+.banner__texts h1 {
+  font-size: 40px;
+}
+
+.banner__texts img {
+  max-width: 60%;
+  height: auto;
+}
+
+.banner__texts button {
+  width: 200px;
+  height: 50px;
+  background: transparent;
+  color: #ffffff;
+  font-weight: bolder;
+  border: 1px solid #ffffff;
+}
+
+.banner__texts button:hover {
+  background: #ffffff;
+  color: #101010;
+  border: 1px solid #101010;
+}
+.banner__image {
+  padding-top: 70px;
+}
+
+.banner__image img {
+  float: left;
+}
+.banner__image p {
+  color: #808080;
+  line-height: 1cm;
+}
+
+/* ********************************************************* */
+.my__projects__section {
+  margin-top: 10rem;
+  text-align: center;
+}
+.my__projects__section h1 {
+  color: #808080;
+  text-align: end;
+  font-size: 48px;
+  opacity: 0.8;
+}
+
+.my__project {
+  transform: rotate(15deg);
+  margin-top: 80px;
+}
+
+.my__project img {
+  max-width: 80%;
+  height: auto;
+  opacity: 0.4;
+}
+
+.my__project h3 {
+  background: #f63645;
+  color: #ffffff;
+}
+
+/* ********************************************************* */
+
+#about__me {
+  margin-top: 10rem;
+  text-align: center;
+}
+
+#about__me h1 {
+  color: #808080;
+  text-align: start;
+  font-size: 48px;
+  opacity: 0.8;
+}
+
+.about__me__section button {
+  width: 200px;
+  height: 50px;
+  background: transparent;
+  color: #ffffff;
+  font-weight: bolder;
+  border: 1px solid #ffffff;
+  margin-top: 30px;
+}
+
+.about__me__section button:hover {
+  background: #ffffff;
+  color: #101010;
+  border: 1px solid #101010;
+}
+
+.countdown {
+  border: 1px solid white;
+  margin-top: 40px;
+}
+
+.my__biography__right {
+  margin-top: 40px;
+}
+
+.fa-arrow-circle-down {
+  font-size: 20px;
+  color: #f63645;
+  padding-right: 15px;
+}
+
+/* ********************************************************* */
+
+#technology {
+  margin-top: 10rem;
+}
+
+.technology__section {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+
+#technology h1 {
+  color: #808080;
+  text-align: end;
+  font-size: 38px;
+  opacity: 0.8;
+}
+.technology__scrool {
+  display: flex;
+}
+
+.technologies {
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  border-right: 2px solid #f63645;
+  text-align: center;
+  width: 300px;
+}
+
+.technologies i {
+  font-size: 80px;
+  margin-top: 2rem;
+  color: #f63645;
+}
+
+/* ********************************************************* */
+
+#certifications {
+  margin-top: 10rem;
+}
+
+#certifications h1 {
+  color: #808080;
+  text-align: start;
+  font-size: 38px;
+  opacity: 0.8;
+}
+
+.certification {
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f63645;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 15px;
+}
+
+.certification button {
+  width: 200px;
+  height: 50px;
+  background: transparent;
+  color: #ffffff;
+  font-weight: bolder;
+  border: 1px solid #ffffff;
+  margin-top: 40px;
+}
+
+.certification button:hover {
+  background: #ffffff;
+  color: #101010;
+  border: 1px solid #101010;
+}
+
+.certification img {
+  max-width: 70%;
+  height: auto;
+}
+
+/* ********************************************************* */
+#contact__me {
+  margin-top: 10rem;
+}
+#contact__me h1 {
+  color: #808080;
+  text-align: end;
+  font-size: 48px;
+  opacity: 0.8;
+}
+
+.contact__me__section form {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contact__me__section label {
+  color: #808080;
+  opacity: 0.4;
+}
+
+.contact__me__section input {
+  border: none;
+  width: 90%;
+  height: 40px;
+  margin: 10px auto;
+}
+
+.contact__me__section textarea {
+  width: 90%;
+  margin-top: 20px;
+  margin: 25px auto;
+}
+
+.contact__me__section form button {
+  width: 200px;
+  height: 50px;
+  background: transparent;
+  color: #ffffff;
+  font-weight: bolder;
+  border: 1px solid #ffffff;
+  margin: 0 auto;
+}
+.contact__me__section form button:hover {
+  background: #ffffff;
+  color: #101010;
+  border: 1px solid #101010;
+}
+
+.social__medias a,
+.social__medias a:visited {
+  text-decoration: none !important;
+  color: #ffffff !important;
+}
+
+.social__medias {
+  font-size: 40px;
+  margin-top: 25px;
+}
+
+.footer__cut {
+  margin-top: 25px;
+  width: 90%;
+}
